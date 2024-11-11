@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Gabarito&family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 :root {
-    --color-body: #b6cbce;
+    --color-body: #ffeede;
     --color-heading: #eef3db;
-    --color-base: #033f47;
-    --color-base2: #022a30;
-    --color-brand: #e0f780;
-    --color-brand2: #deff58;
+    --color-base: #272522;
+    --color-base2: #2d2d2d;
+    --color-brand: #fdffe8;
+    --color-brand2: #f6f2af;
     --sidebar-width: 240px;
     --font-base: "Bai Jamjuree";
+    --star-color:#e0f780; 
 }
 
 body {
@@ -38,6 +39,14 @@ img {
 
 .text-brand {
     color: var(--color-brand);
+}
+
+.text-brand2 {
+    color: var(--color-brand2);
+}
+
+.star-brand {
+    color: var(--star-color);
 }
 
 .bg-base {
@@ -86,11 +95,11 @@ img {
 }
 
 .navbar .nav-link:hover {
-    color: var(--color-brand);
+    color: var(--color-brand2);
 }
 
 .navbar .nav-link.active {
-    color: var(--color-brand);
+    color: var(--color-brand2);
 }
 
 .nav-social-icons a {
@@ -242,3 +251,8 @@ img {
   background: #149ddd;
   color: #fff;
 } */
+
+.about .content ul {
+    list-style: none;
+    padding: 0;
+  }
